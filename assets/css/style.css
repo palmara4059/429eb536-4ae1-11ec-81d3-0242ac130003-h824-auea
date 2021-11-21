@@ -468,3 +468,52 @@ body {
     text-transform: uppercase;
     font-weight   : 700;
 }
+
+
+.container-ressources {
+    display        : flex;
+    flex-direction : row;
+    flex-wrap      : wrap;
+    justify-content:center;
+}
+
+.ressources {
+    padding      : 20px 20px 20px 20px;
+    width        : 25vh;
+    height       : 5vh;
+    margin-left  : 10px;
+    margin-right : 10px;
+    margin-top   : 10px;
+    margin-bottom: 10px;
+    position: relative;
+    top:-5vh;
+}
+
+.ressources h5 {
+    color: #404eef;
+    font-family     : 'Shippori Antique', sans-serif;
+    font-size: 15px;
+}
+.ressources ul {
+    text-decoration: none;
+    list-style: none;
+}
+.ressources ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.ressources li {
+    display: flex;
+    flex-direction: column;
+    margin-top: -15px;
+}
+.ressources a {
+    font-family     : 'Shippori Antique', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
