@@ -311,6 +311,9 @@ body {
 .staff .admin {
     color:#ff3535;
 }
+.staff .responsable {
+    color:#ff6955;
+}
 .staff .supermod {
     color:#2626ff;
 }
@@ -341,6 +344,12 @@ body {
 }
 .fabien {
     background: url("https://minotar.net/avatar/fabien_ferrari/150.png");
+    background-repeat  : no-repeat;
+    background-size    : cover;
+    background-position: center;
+}
+.cyrnaxx {
+    background: url("https://cdn.discordapp.com/avatars/629410780584083456/51da930659edd736083ea3f578ff179a.webp?size=160");
     background-repeat  : no-repeat;
     background-size    : cover;
     background-position: center;
