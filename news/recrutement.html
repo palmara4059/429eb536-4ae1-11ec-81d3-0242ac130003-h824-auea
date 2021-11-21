@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hyderium 🚀</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="./assets/img/logoHyder.png">
+    <link href="../assets/css/design-news.css" rel="stylesheet" />
+    <link href="./assets/css/denews.css" rel="stylesheet" />
+    <link href="https://kit-pro.fontawesome.com/releases/v5.15.4/css/pro.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1234567890.js"></script>
+</head>
+
+<body>
+    <div class="scrollbar" id="scrollp">
+        <div class="section1">
+            <div class="header-pc">
+
+                <div class="header-nav">
+                    <ul>
+                        <li>
+                            <a href="../index">Accueil</a>
+                        </li>
+                        <li>
+                            <a href="../news">News</a>
+                        </li>
+                        <li>
+                            <a>Wili</a>
+                        </li>
+                        <li>
+                            <a href="https://discord.gg/VnRrYmB9kU">Support</a>
+                        </li>
+                    </ul>
+                    <ul class="ulright">
+                        <li>
+                            <a>Boutique</a>
+                        </li>
+                        <li>
+                            <a>Connexion</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="header-mobile">
+                <div class="dropdown">
+                    <button class="menu" onclick="functionMenu()"><i class="far fa-bars"></i></button>
+                    <div id="menuDrop" class="drop-content">
+                        <a href="../accueil">Accueil</a>
+                        <a href="../news">News</a>
+                        <a href="">Wiki</a>
+                        <a href="https://discord.gg/VnRrYmB9kU">Support</a>
+                        <a href="">Boutique</a>
+                        <a href="">Connexion</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="banner-news"></div>
+            <div class="container-news">
+                <h3 class="news-title">L'équipe recrute !</h3>
+                <div class="news-info">
+                    <div class="info-content">
+                        <p>Posté le 21/11/2021 <span>Par Syrnaxx</span></p>
+                    </div>
+                </div>
+                <div class="content-news">
+                    <h3>L'équipe staff d'hyderium recrute !</h3>
+                    <p>Bonjour à tous !<br>
+                        L'équipe de Modération sur le serveur <b>est toujours en recherche de membres</b> qui ont
+                        <b>l'envie d'aider les autres</b>,<br>
+                        <b>ainsi qu'aider à l'évolution</b> du serveur discord comme minecraft.<br><br>
+                        <b>Vous êtes motivé(e)s</b> et en quête d'<b>une équipe accueillante et investie</b> dans leurs
+                        projet et <b>votre plus grand souhait serait d'aider les membres.</b><br>
+                        <b>Vous avez 15 ans ou plus et vous êtes près à respecter et faire respecter les différents
+                            règlements du serveurs ?</b><br><br>
+
+                        Nous avons besoin de votre aide !<br>
+
+                        <b>Les recrutements sont ouverts</b> alors n'hésitez plus, <b>faite votre candidature pour
+                            rejoindre l'équipe.</b><br><br>
+                        Cordialement,<br>
+                        <b>l'administration d'hyderium</b>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="section6">
+            <div class="footer">
+                <p class="copyright">HYDERIUM Copyright © 2021 Tous Droits Réservés - Proposé par Syrnaxx</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function functionMenu() {
+            document.getElementById("menuDrop").classList.toggle("show");
+        }
+
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

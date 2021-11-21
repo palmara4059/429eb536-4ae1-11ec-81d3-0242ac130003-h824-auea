@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hyderium 🚀</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="./assets/img/logoHyder.png">
+    <link href="../assets/css/design-news.css" rel="stylesheet" />
+    <link href="./assets/css/denews.css" rel="stylesheet" />
+    <link href="https://kit-pro.fontawesome.com/releases/v5.15.4/css/pro.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1234567890.js"></script>
+</head>
+
+<body>
+    <div class="scrollbar" id="scrollp">
+        <div class="section1">
+            <div class="header-pc">
+
+                <div class="header-nav">
+                    <ul>
+                        <li>
+                            <a href="../index.html">Accueil</a>
+                        </li>
+                        <li>
+                            <a href="../news.html">News</a>
+                        </li>
+                        <li>
+                            <a>Wili</a>
+                        </li>
+                        <li>
+                            <a href="https://discord.gg/VnRrYmB9kU">Support</a>
+                        </li>
+                    </ul>
+                    <ul class="ulright">
+                        <li>
+                            <a>Boutique</a>
+                        </li>
+                        <li>
+                            <a>Connexion</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="header-mobile">
+                <div class="dropdown">
+                    <button class="menu" onclick="functionMenu()"><i class="far fa-bars"></i></button>
+                    <div id="menuDrop" class="drop-content">
+                        <a href="">Accueil</a>
+                        <a href="../news.html">News</a>
+                        <a href="">Wiki</a>
+                        <a href="https://discord.gg/VnRrYmB9kU">Support</a>
+                        <a href="">Boutique</a>
+                        <a href="">Connexion</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="banner-news"></div>
+            <div class="container-news">
+                <h3 class="news-title">Mise à jours du site !</h3>
+                <div class="news-info">
+                    <div class="info-content">
+                        <p>Posté le 21/11/2021 <span>Par Syrnaxx</span></p>
+                    </div>
+                </div>
+                <div class="content-news">
+                    <h3>Mise à jours du site !</h3>
+                    <p>Bonjour à tous !<br>
+                        La mise à jour du site hyderium, est arrivée !<br>
+                        <br>comme vous l'avez sans doute remarqué les news on été modifiées.
+                        <br><br>
+                    <h4>Nouveautés :</h4>
+                    <br>Design du site refait à zéro pour une meilleure expérience,
+                    <br>La page de news et plus facilement accesible avec les nouveautés classés,
+                    <br>La redirection sur le support et beaucoup plus simple,
+                    <br>Une meilleure lisibilité des différents texte et aures.
+                    <br><br>
+                    <h4>Mises à jours à venir :</h4>
+                    <br>Ajout de la boutique,
+                    <br>Ajout du wiki,
+                    <br>Ajout du système de connexion avec dashboard,
+                    <br><br>
+                    <br>Cordialement,<br>
+                    <b>l'administration d'hyderium</b>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="section6">
+            <div class="footer">
+                <p class="copyright">HYDERIUM Copyright © 2021 Tous Droits Réservés - Proposé par Syrnaxx</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function functionMenu() {
+            document.getElementById("menuDrop").classList.toggle("show");
+        }
+
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

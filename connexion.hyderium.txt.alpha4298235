@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion - Hyderium 🚀</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="./assets/img/logoHyder.png">
+    <link href="./error.css" rel="stylesheet" />
+    <link href="https://kit-pro.fontawesome.com/releases/v5.15.4/css/pro.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1234567890.js"></script>
+</head>
+
+<body>
+    <div class="card">
+        <div class="card-header">
+            <center><h3>Espace Utilisateur</h3></center>
+        </div>
+        <form onsubmit="login()" id="loginForm" class="card-body px-5 py-4">
+            <center><small><span id="error" style="color: red"></span></small></center>
+            <center><label class="custom-field">
+                <input id="email" type="text" class="input" required />
+                <span class="placeholder">Email</span>
+            </label><br />
+            <label class="custom-field">
+                <input id="password" type="password" class="input" required />
+                <span class="placeholder">Mot de passe</span>
+            </label></center><br /><br/>
+            <a href="#" onclick="forgotPass()">mot de passe oublier ?</a>
+            <center><button type="submit" class="btn btn-primary">Connexion</button>
+            <button onclick="signUp()" class="btn btn-secondary">Inscription</button>
+            </center>
+        </form>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+    
+    <script src="./assets/js/firebase.js"></script>
+    <script src="./assets/js/login.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hyderium 🚀</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="./assets/img/logoHyder.png">
+    <link href="./assets/css/style.css" rel="stylesheet" />
+    <link href="https://kit-pro.fontawesome.com/releases/v5.15.4/css/pro.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1234567890.js"></script>
+</head>
+
+<body>
+    <div class="scrollbar" id="scrollp">
+        <div class="section1">
+            <div class="background1"></div>
+            <div class="sep1"></div>
+            <div class="header-pc">
+
+                <div class="header-nav">
+                    <ul>
+                        <li>
+                            <a href="">Accueil</a>
+                        </li>
+                        <li>
+                            <a href="./news">News</a>
+                        </li>
+                        <li>
+                            <a>Wiki</a>
+                        </li>
+                        <li>
+                            <a href="https://discord.gg/VnRrYmB9kU">Support</a>
+                        </li>
+                    </ul>
+                    <ul class="ulright">
+                        <li>
+                            <a>Boutique</a>
+                        </li>
+                        <li>
+                            <a>Connexion</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="header-mobile">
+                <div class="dropdown">
+                    <button class="menu" onclick="functionMenu()"><i class="far fa-bars"></i></button>
+                    <div id="menuDrop" class="drop-content">
+                        <a href="">Accueil</a>
+                        <a href="./news">News</a>
+                        <a href="">Wiki</a>
+                        <a href="https://discord.gg/VnRrYmB9kU">Support</a>
+                        <a href="">Boutique</a>
+                        <a href="">Connexion</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hyder-info">
+                <p>Bienvenue sur le site Hyderium ! 🚀</p>
+            </div>
+        </div>
+        <div class="section2">
+            <div class="background2"></div>
+            <div class="sec2-container">
+                <div class="description">
+                    <h3 class="ispace"><i class="fad fa-space-shuttle"></i>Hyderium PvP/Factions Moddés</h3>
+                    <p>Découvrez notre serveur PvP/Factions Moddés,
+                        actuellement en bêta,
+                        nous nous engageons à vous proposer une qualité de jeu unique.
+                        Profitez d'un serveur agréable et dynamique,
+                        vous ne vous ennuierez jamais sur Hyderium !</p>
+                </div>
+                <div class="description">
+                    <h3 class="idiscord"><i class="fab fa-discord"></i> DISCORD HYDERIUM</h3>
+                    <p>Venez découvrir notre communauté,
+                        une communauté formidable et agréable.
+                        Vous cherchez du positif alors ce serveur est fait pour vous.</p>
+                    <a href="https://discord.gg/VnRrYmB9kU"><button>Rejoins nous</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="section3">
+            <div class="container-game">
+                <div class="game-play">
+                    <p> Rejoignez nos joueurs sur</br></br> <span>hyderium.hopto.org</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section4">
+            <div class="container-spoiler">
+                <p>Les spoilers <i class="fal fa-engine-warning"></i></p>
+            </div>
+        </div>
+        <div class="section5">
+            <div class="container-spoilers">
+                <div class="spoilers img1"></div>
+                <div class="spoilers img2"></div>
+                <div class="spoilers img3"></div>
+                <div class="spoilers img4"></div>
+                <div class="spoilers img5"></div>
+            </div>
+        </div>
+        <div class="section6">
+            <div class="footer">
+                <p class="copyright">HYDERIUM Copyright © 2021 Tous Droits Réservés - Proposé par Syrnaxx</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        function functionMenu() {
+            document.getElementById("menuDrop").classList.toggle("show");
+        }
+
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

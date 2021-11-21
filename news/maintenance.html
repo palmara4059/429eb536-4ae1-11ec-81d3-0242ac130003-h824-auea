@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hyderium 🚀</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="./assets/img/logoHyder.png">
+    <link href="../assets/css/design-news.css" rel="stylesheet" />
+    <link href="./assets/css/denews.css" rel="stylesheet" />
+    <link href="https://kit-pro.fontawesome.com/releases/v5.15.4/css/pro.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1234567890.js"></script>
+</head>
+
+<body>
+    <div class="scrollbar" id="scrollp">
+        <div class="section1">
+            <div class="header-pc">
+
+                <div class="header-nav">
+                    <ul>
+                        <li>
+                            <a href="../index.html">Accueil</a>
+                        </li>
+                        <li>
+                            <a href="../news.html">News</a>
+                        </li>
+                        <li>
+                            <a>Wili</a>
+                        </li>
+                        <li>
+                            <a href="https://discord.gg/VnRrYmB9kU">Support</a>
+                        </li>
+                    </ul>
+                    <ul class="ulright">
+                        <li>
+                            <a>Boutique</a>
+                        </li>
+                        <li>
+                            <a>Connexion</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="header-mobile">
+                <div class="dropdown">
+                    <button class="menu" onclick="functionMenu()"><i class="far fa-bars"></i></button>
+                    <div id="menuDrop" class="drop-content">
+                        <a href="">Accueil</a>
+                        <a href="../news.html">News</a>
+                        <a href="">Wiki</a>
+                        <a href="https://discord.gg/VnRrYmB9kU">Support</a>
+                        <a href="">Boutique</a>
+                        <a href="">Connexion</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="banner-news"></div>
+            <div class="container-news">
+                <h3 class="news-title">Maintenance du serveur en cours !</h3>
+                <div class="news-info">
+                    <div class="info-content">
+                        <p>Posté le 21/11/2021 <span>Par Fabien_Ferrari</span></p>
+                    </div>
+                </div>
+                <div class="content-news">
+                    <h3>Maintenance du serveur en cours !</h3>
+                    <p>Bonjour à tous !<br>
+                    Le serveur va passer en maintenance pour une durée indéterminé, 
+                    voici l'avancé du serveur !<br>
+                    
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="2">Avancement :</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>- Mods fonctionnel (100%)</td>
+                            </tr>
+                            <tr>
+                                <td>- Reconfiguration du serveur (50%)</td>
+                            </tr>
+                            <tr>
+                                <td>- En attente d'un nouveau vps pour héberger le serveur (0%)</td>
+                            </tr>
+                        </tbody>
+                    </table><br>
+                    Nous vous remercions pour votre compréhention.
+                    <br>
+                    <br>Cordialement,<br>
+                    <b>l'administration d'hyderium</b>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="section6">
+            <div class="footer">
+                <p class="copyright">HYDERIUM Copyright © 2021 Tous Droits Réservés - Proposé par Syrnaxx</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function functionMenu() {
+            document.getElementById("menuDrop").classList.toggle("show");
+        }
+
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
