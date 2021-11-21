@@ -278,7 +278,7 @@ body {
 }
 
 .incident {
-    background         : url('../img/incident.png');
+    background         : url('../img/maintenance.png');
     background-repeat  : no-repeat;
     background-size    : cover;
     background-position: center;
