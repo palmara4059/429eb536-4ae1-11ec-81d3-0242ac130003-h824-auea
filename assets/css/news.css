@@ -277,6 +277,13 @@ body {
     background-position: center;
 }
 
+.incident {
+    background         : url('../img/incident.png');
+    background-repeat  : no-repeat;
+    background-size    : cover;
+    background-position: center;
+}
+
 .news .container-title {
     background    : #d35400;
     width         : 35vh;
