@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+/*font-family     : 'Montserrat', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Mulish&display=swap');
+/*font-family     : 'Dosis', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&display=swap');
+/*font-family     : 'Cuprum', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&family=El+Messiri&display=swap');
+/*font-family     : 'Cuprum', sans-serif;
+font-family       : 'El Messiri', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&family=Zen+Kurenaido&display=swap');
+/*font-family     : 'PT Sans Narrow', sans-serif;
+font-family       : 'Zen Kurenaido', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
+/*font-family     : 'Shippori Antique', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/*font-family: 'Poppins', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@700&display=swap');
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Barlow:ital,wght@0,100;1,100&family=Montserrat+Alternates:wght@100&family=Montserrat:wght@200&family=Poppins:wght@700&display=swap');
+/*font-family: 'Acme', sans-serif;
+font-family: 'Barlow', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Poppins', sans-serif;*/
+body {
+    background     : #1a1a1b;
+    color          : #000;
+    text-decoration: none;
+    margin         : 0;
+    padding        : 0;
+    font-family    : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/********************début Scrollbar****************/
+
+.scrollbar {
+    position  : absolute;
+    top       : 0px;
+    right     : 0;
+    height    : calc(100vh - 0px);
+    width     : 100%;
+    overflow-y: scroll;
+}
+
+#wrapper {
+    text-align: center;
+    width     : 500px;
+    margin    : auto;
+}
+
+#scrollp::-webkit-scrollbar-track {
+    background-color: #1d1d1d00;
+}
+
+#scrollp::-webkit-scrollbar {
+    width           : 1px;
+    background-color: #1d1d1d00;
+}
+
+#scrollp::-webkit-scrollbar-thumb {
+    background-color: #404fef;
+}
+
+/********************fin Scrollbar****************/
+
+.section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header {
+    height: 70px;
+    background: #0e0e0e;
+    font-family: poppins,sans-serif;
+    box-shadow: #000 0px 0.5px 10px 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.header-nav {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.header-nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-nav ul li {
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header-nav ul li a {
+    margin-left: 30px;
+    margin-right: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-family: montserrat,sans-serif;
+    font-weight: 500;
+}
+
+.header-nav .ulright {
+    position: absolute;
+    right: 20vh;
+    color: #fff;
+    text-decoration: none;
+    font-family: montserrat,sans-serif;
+    font-weight: 500;
+}
+
+.canton1 {
+    display: flex;
+    height: auto;
+    width: 100%;
+    background: #252527;
+}
+
+.container-news {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 75px;
+}
+
+.container-news a {
+    text-decoration: none;
+}
+
+.news {
+    background: #1d1d1d;
+    padding: 1.5px 1.5px 1.5px 1.5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 40%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.news h3 {
+    color: #fff;
+    margin-left: 15px;
+}
+.news h3 span {
+    color: #ffa600;
+    margin-left: 15px;
+    margin-right: 15px;
+    float: right;
+}
+
+.footer {
+    height: 90px;
+    background: #1a1a1b;
+    font-family: poppins,sans-serif;
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px 20px 20px 20px;
+    justify-content:space-evenly;
+    width: 100%;
+}
+
+.footer .container p {
+    font-weight: 700;
+    font-size: 13px;
+    color: #676a6c;
+}
+.footer .container p a {
+    margin-left: 6px;
+    transition-duration: .6s;
+}
+.claim-left a:hover {
+    color: #adadad;
+}
+
+.claim-right a:hover {
+    color: #ff3535;
+}
+
+ /*-- Code page --*/
+
+
+ .menu {
+    display: none;
+    background   : #ffa600;
+    padding      : 8px 20px;
+    border-radius: 8px;
+    border       : none;
+    position     : absolute;
+    top          : 15px;
+    right        : 10px;
+    cursor       : pointer;
+    visibility   : visible;
+    color        : #fff;
+    font-size    : 20px;
+}
+
+.menu:hover {
+    background: #ca8300;
+}
+.menu:active {
+    background: #ca8300;
+    color     : #1d1d1d;
+    box-shadow: #ffffff29 0px 3px 2px, #ffffff 0px 1px 1px;
+}
+
+
+.dropdown {
+    display: inline-block;
+}
+
+.drop-content {
+    display         : none;
+    position        : absolute;
+    background-color: #0e0e0e;
+    min-width       : 160px;
+    overflow        : auto;
+    box-shadow      : 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index         : 1;
+    top             : 60px;
+    width           : 100%;
+    left            : 0;
+}
+
+.drop-content a {
+    color          : #404eef;
+    padding        : 12px 16px;
+    text-decoration: none;
+    display        : block;
+    text-align     : center;
+}
+
+.dropdown a:hover {
+    background: #7e7e7e;
+}
+
+.show {
+    display: block;
+}
+
+
+
+
+
+@media screen and (max-width: 1280px) {
+    .header-nav {
+        display: none;
+    }
+
+    .footer .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 20px 20px 20px 20px;
+        text-align: center;
+        width: 100%;
+    }
+    .claim-left {
+        margin-top: 0px;
+    }
+    .claim-right {
+        margin-top: -10px;
+    }
+    .menu {
+        display: block;
+    }
+    .news {
+        background: #1d1d1d;
+        padding: 2.5px 2.5px 2.5px 2.5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 90%;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .news h3 {
+        color: #fff;
+        margin-left: 25px;
+        font-size: 15px;
+    }
+    .news h3 span {
+        color: #ffa600;
+        margin-right: 30px;
+        float: right;
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+}
