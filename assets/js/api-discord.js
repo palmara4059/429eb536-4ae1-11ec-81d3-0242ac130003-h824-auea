@@ -1,7 +1,6 @@
 
 let template = `
 <div style="font-size:1em">{{onlineUsers}} </div>
-<div style="font-size:1em">{{channels}} </div>
 </div>
 `
   
@@ -41,7 +40,7 @@ class WidgetDiscord {
 
     constructor(data, el) {
         this.template = template
-        this.channels = data.channels.name;
+        this.channels = data.channels;
         this.users = data.members;
         this.onlineUsers = data.presence_count
         this.serverName = data.name;
