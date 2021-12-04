@@ -2,6 +2,7 @@
 let template = `
 <div style="font-size:1em">{{onlineUsers}} </div>
 <div style="font-size:1em">{{serverId}} </div>
+<div style="font-size:1em">{{channels}} </div>
 </div>
 `
   
