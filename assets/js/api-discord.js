@@ -41,11 +41,11 @@ class WidgetDiscord {
 
     constructor(data, el) {
         this.template = template
-        this.channels = data.channels;
+        this.channels = data.channels.name;
         this.users = data.members;
         this.onlineUsers = data.presence_count
         this.serverName = data.name;
-      this.serverId = data.id;
+        this.serverId = data.id;
         this.el = document.querySelector(el)
         this.render()
     }
