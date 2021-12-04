@@ -1,6 +1,7 @@
 
 let template = `
-<div style="font-size:1em">{{onlineUsers}}</div>
+<div style="font-size:1em">{{onlineUsers}} </div>
+<div style="font-size:1em">{{serverId}} </div>
 </div>
 `
   
@@ -44,6 +45,7 @@ class WidgetDiscord {
         this.users = data.members;
         this.onlineUsers = data.presence_count
         this.serverName = data.name;
+      this.serverId = data.id;
         this.el = document.querySelector(el)
         this.render()
     }
