@@ -182,6 +182,12 @@ body {
     margin-left: 6px;
     transition-duration: .6s;
 }
+
+.claim-left a {
+color: #676a6c;
+    text-decoration:none;
+}
+
 .claim-left a:hover {
     color: #adadad;
 }
