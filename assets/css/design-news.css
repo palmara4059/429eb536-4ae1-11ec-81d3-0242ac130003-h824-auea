@@ -322,3 +322,15 @@ color: #676a6c;
     margin-top   : 0;
     margin-bottom: -10px;
 }
+
+table,
+td {
+    border: 1px solid #d35400;
+}
+
+thead,
+tfoot {
+    background-color: #d35400;
+    color: #fff;
+}
+
