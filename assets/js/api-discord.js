@@ -52,7 +52,7 @@ class WidgetDiscord {
     render() {
         
         this.template = this.tmplReplace(this.template);
-        this.el.innerHTML = this.template
+        this.el.innerHTML = this.template;
     }
     // remplacer des parametres dans un template
     tmplReplace(data) {
