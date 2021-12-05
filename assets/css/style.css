@@ -312,6 +312,7 @@ body {
 
 .claim-left a {
 color: #676a6c;
+    text-decoration:none;
 }
 .claim-left a:hover {
     color: #adadad;
