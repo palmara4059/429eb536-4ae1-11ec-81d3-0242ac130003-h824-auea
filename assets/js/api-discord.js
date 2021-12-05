@@ -3,10 +3,6 @@ let template = `
 </div>
 `
   
- 
-  
-  
-  
 function discordAPI(el) {
     const init = {
         method: 'GET',
@@ -45,7 +41,7 @@ class WidgetDiscord {
         this.serverName = data.name;
         this.serverId = data.id;
         this.el = document.querySelector(el);
-        this.render();
+        this.render()
     }
 
     render() {
