@@ -250,10 +250,13 @@ body {
 }
 
 .data a {
-    padding: 20px 20px 20px 20px;
+    text-decoration:none;
+    padding: 5px 5px 5px 5px;
     width:80%
     margin-left: auto;
     margin-right: auto;
+    margin-top:10px;
+    margin-bottom:10px;
     background : #1d1d1d;
     color:#404eef;
     border-radius:10px;
