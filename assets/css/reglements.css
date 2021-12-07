@@ -141,6 +141,7 @@ body {
     display: flex;
     flex-direction: column;
     color:#fff;
+    box-shadow: #fff 0px 1px 4px;
 }
 .pages a {
     color:#404eef;
