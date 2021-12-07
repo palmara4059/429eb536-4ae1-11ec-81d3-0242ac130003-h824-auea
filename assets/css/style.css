@@ -249,6 +249,14 @@ body {
     font-size: 15px;
 }
 
+.data a {
+    width:80%
+    margin-left: auto;
+    margin-right: auto;
+    background : #1d1d1d;
+    color:#404eef;
+}
+
 .canton4 {
     display: flex;
     height: auto;
