@@ -130,7 +130,7 @@ body {
 }
 
 .pages {
-    background: #fff;
+    background: #1d1d1d;
     padding: 20px 20px 80px 20px;
     width: 58%;
     height: auto;
@@ -140,18 +140,19 @@ body {
     margin-right: auto;
     display: flex;
     flex-direction: column;
+    border: 1px solid #fff;
 }
 .pages a {
-    color:#404eef;
+    color:#909eef;
 }
 
 .pages p {
     font-family: 'Poppins', sans-serif;
-    color: #363636;
+    color: #fff;
 }
 .pages h2 {
     font-family: 'Poppins', sans-serif;
-    color: #000;
+    color: #404eef;
 }
 
 .pages b {
