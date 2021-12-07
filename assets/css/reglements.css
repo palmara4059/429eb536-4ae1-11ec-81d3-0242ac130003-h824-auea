@@ -140,6 +140,7 @@ body {
     margin-right: auto;
     display: flex;
     flex-direction: column;
+    color:#fff;
 }
 .pages a {
     color:#404eef;
