@@ -223,6 +223,9 @@ body {
 }
 
 .data {
+    display: flex;
+    flex-direction: column;
+    flex-warp: warp;
     background: #ffffff;
     padding: 20px 20px 20px 20px;
     margin-top: 15px;
