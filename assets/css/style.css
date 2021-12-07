@@ -250,11 +250,13 @@ body {
 }
 
 .data a {
+    padding: 20px 20px 20px 20px;
     width:80%
     margin-left: auto;
     margin-right: auto;
     background : #1d1d1d;
     color:#404eef;
+    border-radius:10px;
 }
 
 .canton4 {
