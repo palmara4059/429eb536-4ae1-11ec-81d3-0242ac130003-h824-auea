@@ -265,7 +265,7 @@ color: #676a6c;
 .container-news {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 50%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -333,4 +333,3 @@ tfoot {
     background-color: #d35400;
     color: #fff;
 }
-

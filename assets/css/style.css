@@ -225,7 +225,7 @@ body {
 .data {
     display: flex;
     flex-direction: column;
-    flex-warp: warp;
+    flex-wrap: wrap;
     justify-content:centre;
     background: #ffffff;
     padding: 20px 20px 20px 20px;
@@ -256,7 +256,7 @@ body {
 .data a {
     text-decoration:none;
     padding: 10px 10px 10px 10px;
-    width:80%
+    width:80%;
     margin-left: auto;
     margin-right: auto;
     margin-top:10px;
@@ -300,6 +300,62 @@ body {
 .propos p {
     color: #7d7f80;
     font-family: 'Poppins', sans-serif;
+}
+
+.canton-rules {
+    display: flex;
+    height: auto;
+    width: 100%;
+    background: #1a1a1b;
+}
+
+.canton-rules .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.rules {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:centre;
+    background: #1c1c1d;
+    padding: 10px 10px 10px 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 320px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: #0000003d 0px 3px 8px;
+}
+
+.rules h3 {
+    color:#404eef;
+    text-transform: uppercase;
+}
+.rules button {
+    color:#404eef;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    background: #232324;
+    border: none;
+    box-shadow: #00000060 0px 3px 8px;
+    transition-duration: 1s;
+}
+.rules button:hover {
+    background: #171718;
+    box-shadow: #00000060 0px 3px 8px;
+}
+.rules button:active {
+    background: #4d4d50;
+    box-shadow: #00000060 0px 3px 8px;
 }
 
 .footer {
