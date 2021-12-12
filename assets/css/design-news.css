@@ -226,9 +226,6 @@ color: #676a6c;
 
 
 @media screen and (max-width: 1280px) {
-    .container-news {
-    width: 70%;
-}
     .header-nav {
         display: none;
     }
@@ -268,7 +265,7 @@ color: #676a6c;
 .container-news {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 90%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
