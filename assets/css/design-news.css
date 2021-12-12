@@ -226,6 +226,9 @@ color: #676a6c;
 
 
 @media screen and (max-width: 1280px) {
+    .container-news {
+    width: 90%;
+}
     .header-nav {
         display: none;
     }
