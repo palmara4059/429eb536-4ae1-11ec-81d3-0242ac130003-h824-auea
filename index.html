@@ -108,6 +108,25 @@
             </div>
         </div>
     </div>
+
+<script src="https://mcapi.us/scripts/minecraft.js"></script>
+<script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+<div class="server-status">
+  Statut: <span class="server-online"></span><br />
+  Nombre de joueur: <span class="server-nbrPlayer"></span>/<span class="server-nbrPlayerMax"></span>
+</div>
+<script>
+$.get(
+    "https://mcapi.us/server/status",
+    {ip: "94.23.199.130", port : 26515},
+    function(data) {
+        document.querySelector('.server-online').innerHTML = data.online ? 'Allumé' : 'Eteint';
+        document.querySelector('.server-nbrPlayer').innerHTML = data.players.now;
+        document.querySelector('.server-nbrPlayerMax').innerHTML = data.players.max;
+    }
+);
+</script>
+
     <script>
         function functionMenu() {
             document.getElementById("menuDrop").classList.toggle("show");
