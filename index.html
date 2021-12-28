@@ -73,6 +73,12 @@
         </div>
         <div class="section canton3">
             <div class="container-data">
+
+<div class="data"><div class="server-status">
+  Statut: <span class="server-online"></span><br />
+  Nombre de joueur: <span class="server-nbrPlayer"></span>/<span class="server-nbrPlayerMax"></span>
+</div></div>
+
                 <div class="data"><span id="ponline">0</span> / <span id="max">0</span><p>Joueurs Minecraft en ligne</p></div>
                 <div class="data"><span id="widgetDiscord">{{onlineUsers}}</span> <p>Membres Discord en ligne</p></div>
                 <div class="data"><span>+120</span> <p>Membres sur le Discord</p></div>
@@ -111,10 +117,6 @@
 
 <script src="https://mcapi.us/scripts/minecraft.js"></script>
 <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
-<div class="server-status">
-  Statut: <span class="server-online"></span><br />
-  Nombre de joueur: <span class="server-nbrPlayer"></span>/<span class="server-nbrPlayerMax"></span>
-</div>
 <script>
 $.get(
     "https://mcapi.us/server/status",
