@@ -117,8 +117,7 @@ Statut: <span class="server-online"></span><br />
 <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
 <script>
 $.get(
-    "https://mcapi.us/server/status",
-    {ip: "mc.hypixel.net", port : 25565},
+"https://mcapi.us/server/status?ip=hyderium.hopto.org&port=25565",
     function(data) {
         document.querySelector('.server-online').innerHTML = data.online ? 'Allumé' : 'Eteint';
         document.querySelector('.server-name').innerHTML = data.motd;
