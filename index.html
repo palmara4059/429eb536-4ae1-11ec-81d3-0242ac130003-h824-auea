@@ -76,6 +76,7 @@
 
 <div class="data"><div class="server-status">
   Statut: <span class="server-online"></span><br />
+span class="server-name">
   Nombre de joueur: <span class="server-nbrPlayer"></span>/<span class="server-nbrPlayerMax"></span>
 </div></div>
 
@@ -123,6 +124,7 @@ $.get(
     {ip: "mc.hypixel.net", port : 25565},
     function(data) {
         document.querySelector('.server-online').innerHTML = data.online ? 'Allumé' : 'Eteint';
+        document.querySelector('.server-online').innerHTML = data.motd;
         document.querySelector('.server-nbrPlayer').innerHTML = data.players.now;
         document.querySelector('.server-nbrPlayerMax').innerHTML = data.players.max;
     }
